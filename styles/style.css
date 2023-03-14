@@ -463,3 +463,48 @@ button {
 button:hover {
     background: #049ad6;
 }
+
+/*header style start*/
+.header {
+    height: 769px;
+    background: url(../images/jpg/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 41px;
+}
+
+.header__logo {
+    width: 101.62px;
+    height: 23px;
+    margin-bottom: 317px;
+}
+
+.header__title{
+    font-family: 'BebasNeueBold';
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+    color: #FFFFFF;
+}
+
+.header__text {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 221px;
+}
+
+.header__text_bottom {
+    font-family: 'OpenSans';
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 3.7px;
+    color: #FFFFFF;   
+}
+
+
+
+/*header style end*/
