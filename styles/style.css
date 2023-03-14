@@ -464,6 +464,11 @@ button:hover {
     background: #049ad6;
 }
 
+.wrapper {
+    width: 938px;
+    margin: 0 auto;
+}
+
 /*header style start*/
 .header {
     height: 769px;
@@ -504,7 +509,55 @@ button:hover {
     letter-spacing: 3.7px;
     color: #FFFFFF;   
 }
-
-
-
 /*header style end*/
+
+/*nav-bar style start*/
+.navbar {
+    height: 65px;
+    border: 1px solid #E6E6E6;
+}
+
+.navbar_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+}
+
+.navbar__logo_link{
+    text-decoration: none;
+}
+
+.navbar__logo_link:hover, .navbar__logo_link:focus, .navbar__logo_link:active {
+    outline: none;
+}
+
+.navbar__logo {
+    width: 79.53px;
+    height: 18px;
+}
+
+.navbar__menu_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+}
+
+.navbar__menu_link{
+    font-family: 'OpenSans';
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.09091px;
+    text-decoration: none;
+    color: #48555B;
+}
+
+.navbar__menu_link:hover, .navbar__menu_link:focus, .navbar__menu_link:active {
+    color: #00A4E5;
+    outline: none;
+}
+
+/*nav-bar style end*/
