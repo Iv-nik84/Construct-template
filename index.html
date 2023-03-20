@@ -1,55 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Construct-template</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-<!--header start-->    
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!--header start-->
     <header class="header">
-        <img src="images/png/company-logo-white.png" alt="company-logo" class="header__logo">
-        <h1 class="header__title">PARTNER WITH KONSTUCT</h1>
-        <p class="header__text">An award-winning construction management firm</p>
-        <p class="header__text_bottom">SCROLL DOWN</p>
+      <img
+        src="images/png/company-logo-white.png"
+        alt="company-logo"
+        class="header__logo"
+      />
+      <h1 class="header__title">PARTNER WITH KONSTUCT</h1>
+      <p class="header__text">An award-winning construction management firm</p>
+      <p class="header__text_bottom">SCROLL DOWN</p>
     </header>
-<!--header end-->  
+    <!--header end-->
 
-<!--nav-bar start--> 
+    <!--nav-bar start-->
     <section class="navbar">
-        <div class="wrapper">
-            <div class="navbar_content">
-                <a href="#!" class="navbar__logo_link">
-                    <img src="images/png/company-logo-black.png" alt="company-logo" class="navbar__logo">
-                </a>
-                <nav class="navbar__menu">
-                    <ul class="navbar__menu_list">
-                        <li class="navbar__menu_item">
-                            <a href="#!" class="navbar__menu_link">HOME</a>
-                        </li>
-                        <li class="navbar__menu_item">
-                            <a href="#!" class="navbar__menu_link">ABOUT</a>
-                        </li>
-                        <li class="navbar__menu_item">
-                            <a href="#!" class="navbar__menu_link">SERVICES</a>
-                        </li>
-                        <li class="navbar__menu_item">
-                            <a href="#!" class="navbar__menu_link">WORK</a>
-                        </li>
-                        <li class="navbar__menu_item">
-                            <a href="#!" class="navbar__menu_link">CONTACT</a>
-                        </li>
-                    </ul>
-               </nav>
-            </div>
-            
+      <div class="wrapper">
+        <div class="navbar_content">
+          <a href="#!" class="navbar__logo_link">
+            <img
+              src="images/png/company-logo-black.png"
+              alt="company-logo"
+              class="navbar__logo"
+            />
+          </a>
+          <nav class="navbar__menu">
+            <ul class="navbar__menu_list">
+              <li class="navbar__menu_item">
+                <a href="#!" class="navbar__menu_link">HOME</a>
+              </li>
+              <li class="navbar__menu_item">
+                <a href="#!" class="navbar__menu_link">ABOUT</a>
+              </li>
+              <li class="navbar__menu_item">
+                <a href="#!" class="navbar__menu_link">SERVICES</a>
+              </li>
+              <li class="navbar__menu_item">
+                <a href="#!" class="navbar__menu_link">WORK</a>
+              </li>
+              <li class="navbar__menu_item">
+                <a href="#!" class="navbar__menu_link">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </section>
-<!--nav-bar end--> 
+    <!--nav-bar end-->
 
+    <!--about start-->
+    <section class="about">
+      <div class="wrapper">
+        <div class="about__content">
+          <h2 class="about__title">OUR STORY</h2>
+          <div class="about__content_block">
+            <div class="about__content_block-text">
+              <h2 class="about__content_block-title">
+                Founded in 2011 by John Mathew Smith,
+                <strong>Konstruct</strong> has become the number one
+                construction management firm
+              </h2>
+              <p class="about__content_block-desc">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat. Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat.
+              </p>
+            </div>
+            <div class="about__cards">
+              <figure class="about__card">
+                <img
+                  src="images/jpg/we plan.jpg"
+                  alt="we plan"
+                  class="about__card_pic"
+                />
+                <figcaption class="about__card_title">
+                  WE <br />
+                  PLAN
+                </figcaption>
+              </figure>
 
+              <figure class="about__card">
+                <img
+                  src="images/jpg/we manage.jpg"
+                  alt="we manage"
+                  class="about__card_pic"
+                />
+                <figcaption class="about__card_title">
+                  WE <br />MANAGE
+                </figcaption>
+              </figure>
 
-</body>
+              <figure class="about__card">
+                <img
+                  src="images/jpg/we build.jpg"
+                  alt="we build"
+                  class="about__card_pic"
+                />
+                <figcaption class="about__card_title">
+                  WE <br />
+                  BUILD
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--about end-->
+
+    <!--services start-->
+    <section class="services">
+      <div class="wrapper">
+        <div class="services__container">
+          <div class="services__holder">
+            <h3 class="services__holder-title">OUR CAPABILITIES</h3>
+            <p class="services__holder-text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat.
+            </p>
+            <button class="services__holder-btn">ALL SERVICES</button>
+          </div>
+          <div class="services__grid">
+            <div class="services__grid-col">
+              <img
+                src="images/svg/bitmap-project.svg"
+                alt="bitmap-project"
+                class="services__grid-icon"
+              />
+              <h3 class="services__grid-title">
+                PROJECT AND CONSTRUCTION MANAGEMENT
+              </h3>
+              <p class="services__grid-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+
+            <div class="services__grid-col">
+              <img
+                src="images/svg/bitmap-structure.svg"
+                alt="bitmap-structure"
+                class="services__grid-icon"
+              />
+              <h3 class="services__grid-title">
+                STRUCTURE AUDIT AND MAINTENANCE
+              </h3>
+              <p class="services__grid-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+
+            <div class="services__grid-col">
+              <img
+                src="images/svg/bitmap-factory.svg"
+                alt="bitmap-factory"
+                class="services__grid-icon"
+              />
+              <h3 class="services__grid-title">
+                FACTORY CONSTRUCTION AND MODELING
+              </h3>
+              <p class="services__grid-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--services end-->
+  </body>
 </html>
