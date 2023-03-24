@@ -907,3 +907,228 @@ strong {
   letter-spacing: 0.1875px;
 }
 /*services style end*/
+
+/*get in touch style start*/
+.touch {
+  height: 498px;
+  padding-top: 120px;
+  text-align: center;
+  background-image: url(../images/jpg/touch-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.touch__title {
+  width: 350px;
+  height: 72px;
+  margin: 0 auto 35px;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #48555b;
+}
+
+.touch__btn {
+  width: 150px;
+  height: 40px;
+  background: #00a4e5;
+  font-family: "Open Sans";
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+/*get in touch style end*/
+
+/*newsletter style start*/
+.newsletter {
+  height: 100px;
+  background: #171819;
+  padding-top: 30px;
+}
+
+.newsletter__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 685px;
+  height: 40px;
+}
+
+.newsletter__title {
+  width: 216px;
+  height: 30px;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+}
+
+.newsletter__form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 400px;
+}
+
+.newsletter__form_input {
+  width: 250px;
+  height: 40px;
+  padding-left: 16px;
+  background: #ffffff;
+  border: 1px solid #979797;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07px;
+  color: #48555b;
+}
+
+.newsletter__btn {
+  width: 150px;
+  height: 40px;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-left: -0.36em;
+}
+/*newsletter style end*/
+
+/*footer style start*/
+.footer {
+  height: 299px;
+  padding-top: 42px;
+  background: #141a20;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 915px;
+  height: 158px;
+  margin: 0 auto;
+}
+
+.footer__title {
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: 100;
+  line-height: 13px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+}
+
+.footer__company {
+  width: 250px;
+  height: 148px;
+}
+
+.footer__logo {
+  width: 101.62px;
+  height: 23px;
+  margin: 19px 0 15px;
+}
+
+.footer__text {
+  width: 250px;
+  height: 76px;
+  font-family: "Open Sans";
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+  color: #ffffff;
+}
+
+.footer__links {
+  width: 262px;
+  height: 152px;
+  margin-left: 70px;
+}
+
+.footer__link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 262px;
+  margin-top: 10px;
+}
+
+.footer__menu_link {
+  font-family: "Open Sans";
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__menu_link:hover,
+.footer__menu_link:focus,
+.footer__menu_link:active {
+  color: #00a4e5;
+  outline: none;
+}
+
+.footer__contact {
+  width: 141px;
+  height: 158px;
+  margin-left: 58px;
+}
+
+.contact__text {
+  margin-top: 15px;
+}
+
+.footer__contact a {
+  display: flex;
+  font-family: "Open Sans";
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 13px;
+}
+
+.footer__contact a:hover,
+.footer__contact a:focus,
+.footer__contact a:active {
+  color: #00a4e5;
+  outline: none;
+}
+
+.footer__socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 87px;
+  height: 13px;
+  margin: 30px 0 0 40px;
+  background: url(../images/png/object-f.png), url(../images/png/object-t.png),
+    url(../images/png/object-g.png);
+}
+
+.copyright {
+  margin-top: 49px;
+  height: 60px;
+  padding-top: 22px;
+  text-align: center;
+  background: #171819;
+  font-family: "Open Sans";
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+}
+/*footer style end*/
